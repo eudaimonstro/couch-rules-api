@@ -1,4 +1,9 @@
 {
+    "local": {
+        "PORT": 3000,
+        "MONGODB_URI": "mongodb+srv://user:user@main.ckmjb.mongodb.net/couch_rules?authSource=admin",
+        "JWT_SECRET": "abc123"
+    },
     "test": {
         "PORT": 3000,
         "MONGODB_URI": "mongodb://localhost:27017/TodoApp",
@@ -6,7 +11,7 @@
     },
     "development": {
         "PORT": 3000,
-        "MONGODB_URI": "mongodb://localhost:27017/TodoAppTest",
+        "MONGODB_URI": "mongodb+srv://SGCouch1@gmail.com:F2c2YYTig9GH@main.ckmjb.mongodb.net/main?retryWrites=true&w=majority",
         "JWT_SECRET": "abc123"
     }
 }
